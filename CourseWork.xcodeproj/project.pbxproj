@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		883B3BDE1FB48BAE004A14C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 883B3BDD1FB48BAE004A14C7 /* main.cpp */; };
+		888D90721FBDCB440085C205 /* Traversals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 888D90711FBDCB440085C205 /* Traversals.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,15 @@
 /* Begin PBXFileReference section */
 		883B3BDA1FB48BAE004A14C7 /* CourseWork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CourseWork; sourceTree = BUILT_PRODUCTS_DIR; };
 		883B3BDD1FB48BAE004A14C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		883B3BE41FB48E0A004A14C7 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		883B3BE51FB48E0A004A14C7 /* LinearList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearList.h; sourceTree = "<group>"; };
+		883B3BE61FB48E0A004A14C7 /* xcept.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xcept.h; sourceTree = "<group>"; };
+		883B3BE71FB48E0A004A14C7 /* Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chain.h; sourceTree = "<group>"; };
+		8877DA341FB8F16000BF630A /* ChainStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChainStack.h; sourceTree = "<group>"; };
+		8877DA351FB8F7F200BF630A /* DoubleChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleChain.h; sourceTree = "<group>"; };
+		888D90711FBDCB440085C205 /* Traversals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Traversals.cpp; sourceTree = "<group>"; };
+		88AC8ABC1FBC5F4500B325EA /* ExpTransfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpTransfer.h; sourceTree = "<group>"; };
+		88AC8ABD1FBC948400B325EA /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,16 @@
 		883B3BDC1FB48BAE004A14C7 /* CourseWork */ = {
 			isa = PBXGroup;
 			children = (
+				888D90711FBDCB440085C205 /* Traversals.cpp */,
+				883B3BE71FB48E0A004A14C7 /* Chain.h */,
+				883B3BE51FB48E0A004A14C7 /* LinearList.h */,
+				883B3BE41FB48E0A004A14C7 /* Stack.h */,
+				8877DA341FB8F16000BF630A /* ChainStack.h */,
+				883B3BE61FB48E0A004A14C7 /* xcept.h */,
 				883B3BDD1FB48BAE004A14C7 /* main.cpp */,
+				8877DA351FB8F7F200BF630A /* DoubleChain.h */,
+				88AC8ABC1FBC5F4500B325EA /* ExpTransfer.h */,
+				88AC8ABD1FBC948400B325EA /* TreeNode.h */,
 			);
 			path = CourseWork;
 			sourceTree = "<group>";
@@ -119,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888D90721FBDCB440085C205 /* Traversals.cpp in Sources */,
 				883B3BDE1FB48BAE004A14C7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +197,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LIBTOOLFLAGS = "-ObjC";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -225,6 +246,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LIBTOOLFLAGS = "-ObjC";
 				SDKROOT = macosx;
 			};
 			name = Release;
